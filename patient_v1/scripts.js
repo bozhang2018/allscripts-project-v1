@@ -10,7 +10,7 @@ app.appendChild(logo);
 app.appendChild(container);
 
 var request = new XMLHttpRequest();
-request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
+request.open('GET', 'http://FHIR.server/patient/123', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
